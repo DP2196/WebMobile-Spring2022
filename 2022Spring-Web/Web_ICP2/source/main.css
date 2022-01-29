@@ -1,0 +1,23 @@
+body {
+    padding: 0;
+    box-sizing: border-box;
+}
+
+h1 {
+    margin: 0;
+}
+
+.heading {
+    text-align: center;
+    background: #ADD8E6;
+    color: black;
+}
+
+.footer {
+    height: 75px;
+    background: #ADD8E6;
+}
+
+.small_heading {
+    color: darkblue;
+}
