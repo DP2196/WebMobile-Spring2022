@@ -7,17 +7,21 @@ h1 {
     margin: 0;
 }
 
+/* styling all the headings*/
 .heading {
+    /* aligning the text to center for headings*/
     text-align: center;
     background: #ADD8E6;
     color: black;
 }
 
+/* styling the footer of the page*/
 .footer {
     height: 75px;
     background: #ADD8E6;
 }
 
+/* small heading styling*/
 .small_heading {
     color: darkblue;
 }
