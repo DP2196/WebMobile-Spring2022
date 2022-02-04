@@ -1,0 +1,43 @@
+.heading{
+    display: flex;
+    align-items:center;
+    flex-direction: column;
+    width: 100%;
+}
+.images {
+    display: flex;
+    align-items:center;
+    /* justify-content: center; */
+    flex-direction: column;
+}
+.header {
+    text-align: center;
+    margin: 20px 10px
+}
+
+/* Clearfix (clear floats) */
+.row::after {
+    content: "";
+    clear: both;
+    display: table;
+}
+.image {
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    width: 20%;
+}
+#result {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+#result p {
+    font-size: 20px;
+    font-weight: bold;
+}
+p#final-result {
+    font-size: 40px;
+}
