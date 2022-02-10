@@ -1,0 +1,107 @@
+body {
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-image: url("https://wallpapercave.com/w/wp4842945.jpg");
+    background-color: #5f3729;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    border-top: 5px solid #131f49;
+    margin: 0px auto;
+    font-size: 14px;
+    color: darkseagreen;
+    font-size: 16px;
+}
+
+header {
+    text-align: center;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    background-color: cornflowerblue;
+    border-bottom: 1px black;
+    color:black;
+}
+
+#logo {
+    position: relative;
+    top: -2px;
+}
+
+#submit {
+    width: 120px;
+    margin-top: 10px;
+    padding:5px;
+    background-color: dodgerblue;
+    color:black;
+    border-style: inset;
+    border-color: none;
+}
+
+.alert.alert-danger{
+    background-color: rosybrown;
+    padding: 5px;
+    font-weight: bold;
+
+}
+#container {
+    width: 1040px;
+    margin: 0px auto;
+    min-height: 750px;
+    text-align: center;
+}
+
+input[type='text'] {
+    background-color: black;
+    border-color: none;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    height: 2.2em;
+    font-size: 2em;
+    width: 50%;
+    padding: 5px;
+    color: white;
+}
+
+.information, .avatar {
+    vertical-align: top;
+    display: inline-block;
+}
+
+.information {
+    text-align: center;
+    border-top-left-radius: 5px;
+    border-bottom-left-radius: 5px;
+}
+
+.search {
+    text-align: center;
+    margin: 50px auto;
+}
+
+h2 {
+    padding: 5px;
+}
+
+.profile {
+    height: 130px;
+    width: 150px;
+    padding: 90px 30px 0;
+    display: block;
+    background-color: hotpink;
+    text-decoration: none;
+    color: palevioletred;
+    font-weight: bold;
+}
+
+.profile:hover {
+    background-color: #050708;
+}
+
+
+#error {
+    color: rgba(10, 7, 7, 0.63);
+    margin: 10px;
+    font-size:20px;
+}
+.card {
+    margin: 0 auto;
+    float: none;
+    margin-bottom: 10px;
+}
