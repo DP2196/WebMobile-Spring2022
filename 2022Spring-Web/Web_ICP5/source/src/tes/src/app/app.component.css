@@ -1,0 +1,94 @@
+.col-sm-5{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-color: black;
+}
+.col-sm-3{
+  font-family:Georgia, 'Times New Roman', Times, serif;
+  border-color: black;
+}
+
+.title-r {
+  font-family: Georgia, 'Times New Roman', Times, serif;
+  text-align: center;
+  font-weight: bolder;
+}
+.list-item-card.pt-10 {
+  background-color: rgb(8, 8, 8);
+  border-color: black;
+  box-shadow:2px 2px black;
+}
+
+.list-item-card.completed {
+  border-left: 10px solid rgb(163, 12, 12);
+}
+.btn.btn-primary {
+  color:rgb(85, 75, 136);
+  background-color: rgb(200, 221, 14);
+  border-color: black;
+}
+.btn.btn-danger.delete.mr-10 {
+  align-content:center ;
+  background-color:coral;
+  color: rgb(78, 75, 69);
+  border-color: black;
+}
+.mr-10 {
+  color: bisque;
+  margin-right: 10px;
+}
+
+.mp-10 {
+  color: mediumvioletred;
+  margin-right: 10px;
+}
+
+.pt-10 {
+  padding-top:10px;
+}
+
+.mt-20 {
+  margin-top:20px;
+}
+
+.btn-success {
+  color:antiquewhite;
+  background-color: rgb(2, 36, 36);
+  border-color: black;
+}
+
+.btn.col-sm-2 {
+  padding:0%;
+
+}
+.todos {
+
+  border: 3px solid rgb(12, 12, 12);
+  padding: 10px 14px;
+  margin: 10px auto;
+  box-shadow: 4px 4px rgb(5, 5, 5);
+  border-radius: 21px;
+  background-color: lightskyblue;
+}
+
+.delete {
+  float: right;
+}
+
+.list-item-card.completed {
+  border-left:10px solid green;
+}
+
+.list-card {
+  padding: 0px;
+}
+
+.list-item-card {
+  list-style: none;
+  width: 750px;
+  border: 1px solid #ccc;
+  padding: 10px 14px;
+  margin: 10px auto;
+  box-shadow: 2px 2px #ccc;
+  border-radius: 10px;
+}
+

@@ -1,0 +1,47 @@
+<div class="todos">
+  <header class="title-r">
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+    <h1>TO-DO TIMER</h1>
+  </header>
+
+<form>
+  <div class="container">
+  <div class="row">
+    <div class="col-sm-5">
+      <input type="text" class="form-control" placeholder="Enter To-Do" name="todo" [(ngModel)]="addTODOItem">
+    </div>
+    <div class="col-sm-3">
+      <input type="datetime-local" class="form-control" id="tasktime" [(ngModel)]="eventDate" name="time">
+    </div>
+    <div class="btn col-sm-2">
+      <button type="button" class="btn btn-success" (click)="addItem()">Save Task</button>
+    </div>
+  </div>
+  </div>
+</form>
+
+<div class="todo-list mt-20">
+  <ul class="todo-list list-card">
+    <li class="list-item-card pt-10" *ngFor="let item of todoItems;let i=index" >
+      <div class="view">
+<!--        <input class="toggle mr-10" type="checkbox" (click)="toggleTodoComplete(i)" [checked]="todo.completed">-->
+<!--<div *ngFor="let item of todoItems; let i = index">-->
+  <label class="mr-10" style="padding-right: 40px">{{item['description']}}</label>
+  <span>
+                  <button class="btn btn-primary mr-10">{{item['days']+ 'd'}}</button>
+                  <button class="btn btn-primary mr-10">{{item['hours'] + 'h'}}</button>
+                  <button class="btn btn-primary mr-10">{{item['minutes'] + 'm'}}</button>
+                  <button class="btn btn-primary mr-10">{{item['seconds'] + 's'}}</button>
+                  <button class="btn btn-danger delete mr-10" (click)="delete(i)">Delete</button>
+              <button  class="toggle mp-10"  *ngIf="item.showTimeupMsg"> TIMES UP</button>
+    </span>
+
+</div>
+    </li>
+  </ul>
+</div>
+  </div>
+<!--<input type="text" [(ngModel)]="addTODOItem" placeholder="Add TODO">-->
+<!--<input type="datetime-local" [(ngModel)]="eventDate">-->
+<!--<Button type="button" (click)="addItem()">Add</Button>-->
+
